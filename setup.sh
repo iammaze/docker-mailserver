@@ -24,7 +24,7 @@ _update_config_path() {
 }
 
 if [ -z "$IMAGE_NAME" ]; then
-  IMAGE_NAME=tvial/docker-mailserver:latest
+  IMAGE_NAME=oceanize/mailserver:latest
 fi
 
 _inspect() {
